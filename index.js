@@ -10,5 +10,5 @@ submitForm.addEventListener("submit", (event) => {
     const waveType = formData.get("wavetype");
     const playDuration = formData.get("playduration");
 
-    window.location.href = "http://192.168.1.6:3000/?waveLength=${waveLength}&waveType=${waveType}&playDuration=${playDuration}"
+    window.location.href = `http://192.168.1.6:3000/?waveLength=${waveLength}&waveType=${waveType}&playDuration=${playDuration}`
 })
